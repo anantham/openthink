@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.local
+.vite
+*.tsbuildinfo
+
+# Local-only inspiration material + dev artifacts (not part of the deployable app)
+context/
+.screenshots/

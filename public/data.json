@@ -1,0 +1,3155 @@
+{
+  "generated_at": "2026-05-26T19:42:02.324Z",
+  "coalitions": [
+    {
+      "id": "mycc",
+      "name": "Massachusetts Youth Climate Coalition",
+      "abbrev": "MYCC",
+      "description": "Youth-led statewide coalition of school clubs and youth groups organizing for climate justice in Massachusetts.",
+      "focus_tags": [
+        "youth_serving",
+        "school_clubs",
+        "climate_policy"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#34d399",
+      "lat": 42.347,
+      "lng": -71.084,
+      "member_ids": [
+        "bls_youthcan",
+        "andover_climate_lobby",
+        "andover_hs_env",
+        "belmont_hs",
+        "may4cj",
+        "lorax",
+        "green_heifers",
+        "ccl_youth",
+        "fff_ma",
+        "mass_climate_edu",
+        "spring_forward",
+        "greenroots_eco",
+        "bsac",
+        "project9",
+        "sunrise_boston",
+        "sunrise_worcester",
+        "sunrise_ipswich",
+        "sunrise_western_ma",
+        "sunrise_lex",
+        "mass_audubon",
+        "audubon_metro",
+        "our_climate",
+        "vietaid",
+        "reep",
+        "ace",
+        "act_on_mass",
+        "students_equity"
+      ],
+      "member_count": 27,
+      "projects": [
+        {
+          "id": "mycc_p1",
+          "name": "Climate Education Bill",
+          "description": "Push H.4093 through the State House this session.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "writing",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "mycc_p2",
+          "name": "Youth Summit 2026",
+          "description": "Coordinate the annual MA youth climate summit at UMass Boston.",
+          "status": "active",
+          "skills_needed": [
+            "event logistics",
+            "graphic design",
+            "social media"
+          ]
+        },
+        {
+          "id": "mycc_p3",
+          "name": "Member-org Onboarding Sprint",
+          "description": "Onboard five new school clubs by July.",
+          "status": "active",
+          "skills_needed": [
+            "outreach",
+            "facilitation"
+          ]
+        },
+        {
+          "id": "mycc_p4",
+          "name": "Climate Curriculum Pilot",
+          "description": "Pilot peer-led climate curriculum in three schools.",
+          "status": "planning",
+          "skills_needed": [
+            "writing",
+            "research"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "mycc_e1",
+          "name": "MYCC Steering Meeting",
+          "date": "2026-06-12T18:00:00",
+          "location": "Boston Latin School + Zoom"
+        },
+        {
+          "id": "mycc_e2",
+          "name": "Youth Lobby Day",
+          "date": "2026-06-25T09:00:00",
+          "location": "MA State House"
+        },
+        {
+          "id": "mycc_e3",
+          "name": "Summer Climate Camp",
+          "date": "2026-07-15T09:00:00",
+          "location": "Walden Pond"
+        },
+        {
+          "id": "mycc_e4",
+          "name": "New-Member Orientation",
+          "date": "2026-09-08T18:30:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "mycc_e5",
+          "name": "Earth Day Rally Debrief",
+          "date": "2026-05-01T17:00:00",
+          "location": "Boston Common"
+        }
+      ],
+      "actions": [
+        {
+          "id": "mycc_a1",
+          "kind": "task",
+          "name": "Design Summit posters",
+          "urgency": "high",
+          "skills_needed": [
+            "graphic design"
+          ],
+          "deadline": "2026-06-30"
+        },
+        {
+          "id": "mycc_a2",
+          "kind": "task",
+          "name": "Recruit two new school clubs",
+          "urgency": "medium",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": "2026-08-01"
+        },
+        {
+          "id": "mycc_a3",
+          "kind": "role",
+          "name": "Social Media Co-Lead",
+          "urgency": "medium",
+          "skills_needed": [
+            "social media",
+            "writing"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "mycc_a4",
+          "kind": "task",
+          "name": "Photograph the Lobby Day",
+          "urgency": "low",
+          "skills_needed": [
+            "photography"
+          ],
+          "deadline": "2026-06-26"
+        },
+        {
+          "id": "mycc_a5",
+          "kind": "role",
+          "name": "Spanish Translator (Curriculum Pilot)",
+          "urgency": "medium",
+          "skills_needed": [
+            "spanish",
+            "translation"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-14T19:42:02.320Z"
+    },
+    {
+      "id": "mpf",
+      "name": "Mass Power Forward",
+      "abbrev": "MPF",
+      "description": "Statewide coalition of climate, environmental, and EJ organizations pushing comprehensive MA climate policy.",
+      "focus_tags": [
+        "climate_policy",
+        "environmental_justice",
+        "grassroots"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#60a5fa",
+      "lat": 42.3585,
+      "lng": -71.064,
+      "member_ids": [
+        "mass_audubon",
+        "sierra_ma",
+        "350ma",
+        "mcan",
+        "envt_ma",
+        "cwa",
+        "miph",
+        "mothers",
+        "jcan",
+        "uuma",
+        "climate_xc",
+        "ace",
+        "greenroots",
+        "clf",
+        "gbpsr",
+        "geca",
+        "mass_peace",
+        "masspirg",
+        "sunrise_boston",
+        "sunrise_western_ma",
+        "audubon_metro",
+        "beat",
+        "food_water",
+        "jalsa",
+        "cps",
+        "climate_code_blue",
+        "boston_can",
+        "crwa",
+        "elm",
+        "community_action_works",
+        "afsc",
+        "mt_grace",
+        "salem_env",
+        "naicob",
+        "climate_bkln",
+        "healthlink",
+        "350cape",
+        "350central",
+        "qcan",
+        "reep",
+        "our_climate"
+      ],
+      "member_count": 41,
+      "projects": [
+        {
+          "id": "mpf_p1",
+          "name": "Comprehensive Climate Bill 2026",
+          "description": "Pass the omnibus climate package with EJ amendments.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "writing",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "mpf_p2",
+          "name": "Statewide Lobby Day",
+          "description": "300 visits to legislators in March.",
+          "status": "active",
+          "skills_needed": [
+            "event logistics",
+            "outreach"
+          ]
+        },
+        {
+          "id": "mpf_p3",
+          "name": "Frontline Endorsement Process",
+          "description": "Re-do the EJ endorsement vote for the bill priorities.",
+          "status": "active",
+          "skills_needed": [
+            "facilitation"
+          ]
+        },
+        {
+          "id": "mpf_p4",
+          "name": "Coalition Member Survey",
+          "description": "Annual member-org survey on priorities and capacity.",
+          "status": "planning",
+          "skills_needed": [
+            "data entry",
+            "research"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "mpf_e1",
+          "name": "Coalition All-Member Meeting",
+          "date": "2026-06-05T17:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "mpf_e2",
+          "name": "Statehouse Lobby Day",
+          "date": "2026-06-18T09:00:00",
+          "location": "MA State House"
+        },
+        {
+          "id": "mpf_e3",
+          "name": "Climate Bill Strategy Retreat",
+          "date": "2026-08-22T09:00:00",
+          "location": "Holy Cross, Worcester"
+        },
+        {
+          "id": "mpf_e4",
+          "name": "Frontline Listening Session",
+          "date": "2026-07-09T18:00:00",
+          "location": "Springfield"
+        }
+      ],
+      "actions": [
+        {
+          "id": "mpf_a1",
+          "kind": "task",
+          "name": "Call your Senator on H.4093",
+          "urgency": "high",
+          "skills_needed": [
+            "public speaking"
+          ],
+          "deadline": "2026-06-15"
+        },
+        {
+          "id": "mpf_a2",
+          "kind": "task",
+          "name": "Translate testimony to Spanish",
+          "urgency": "medium",
+          "skills_needed": [
+            "spanish",
+            "translation"
+          ],
+          "deadline": "2026-06-09"
+        },
+        {
+          "id": "mpf_a3",
+          "kind": "role",
+          "name": "Hearing Logistics Coordinator",
+          "urgency": "medium",
+          "skills_needed": [
+            "event logistics"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "mpf_a4",
+          "kind": "task",
+          "name": "Sign-on Letter circulation",
+          "urgency": "high",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": "2026-06-12"
+        },
+        {
+          "id": "mpf_a5",
+          "kind": "role",
+          "name": "Member-Survey Data Volunteer",
+          "urgency": "low",
+          "skills_needed": [
+            "data entry"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-16T19:42:02.323Z"
+    },
+    {
+      "id": "mara",
+      "name": "Massachusetts Renews Alliance",
+      "abbrev": "MARA",
+      "description": "Alliance focused on accelerating MA's transition to 100% renewable energy through policy and grassroots organizing.",
+      "focus_tags": [
+        "clean_energy",
+        "climate_policy"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#a78bfa",
+      "lat": 42.387,
+      "lng": -71.11,
+      "member_ids": [
+        "350ma",
+        "mass_audubon",
+        "sierra_ma",
+        "cwa",
+        "mcan",
+        "climate_xc",
+        "geca",
+        "elm",
+        "passive_house",
+        "crwa",
+        "mothers",
+        "green_newton",
+        "green_cambridge",
+        "sunrise_boston",
+        "uuma",
+        "boston_can",
+        "qcan",
+        "350berks",
+        "beat",
+        "prog_dems"
+      ],
+      "member_count": 20,
+      "projects": [
+        {
+          "id": "mara_p1",
+          "name": "100% Renewables by 2035",
+          "description": "Campaign to advance the accelerated renewables timeline.",
+          "status": "active",
+          "skills_needed": [
+            "writing",
+            "research",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "mara_p2",
+          "name": "Offshore Wind Workforce",
+          "description": "Just-transition workforce policy push.",
+          "status": "active",
+          "skills_needed": [
+            "research",
+            "writing"
+          ]
+        },
+        {
+          "id": "mara_p3",
+          "name": "Net Metering Defense",
+          "description": "Defend distributed solar net-metering rules.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "public speaking"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "mara_e1",
+          "name": "Renewables Now Rally",
+          "date": "2026-07-08T12:00:00",
+          "location": "Boston Common"
+        },
+        {
+          "id": "mara_e2",
+          "name": "Offshore Wind Workforce Convening",
+          "date": "2026-09-15T10:00:00",
+          "location": "New Bedford"
+        },
+        {
+          "id": "mara_e3",
+          "name": "Solar Net-Metering Hearing",
+          "date": "2026-06-19T13:00:00",
+          "location": "MA DPU"
+        }
+      ],
+      "actions": [
+        {
+          "id": "mara_a1",
+          "kind": "task",
+          "name": "Sign on to Renewables Letter",
+          "urgency": "high",
+          "skills_needed": [
+            "writing"
+          ],
+          "deadline": "2026-06-08"
+        },
+        {
+          "id": "mara_a2",
+          "kind": "role",
+          "name": "Workforce Policy Researcher",
+          "urgency": "low",
+          "skills_needed": [
+            "research"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "mara_a3",
+          "kind": "task",
+          "name": "Rally tabling volunteers needed",
+          "urgency": "medium",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": "2026-07-08"
+        }
+      ],
+      "last_activity": "2026-05-24T19:42:02.323Z"
+    },
+    {
+      "id": "gjc",
+      "name": "Green Justice Coalition",
+      "abbrev": "GJC",
+      "description": "EJ-led coalition centering frontline communities in climate, energy, and environmental decision-making.",
+      "focus_tags": [
+        "environmental_justice",
+        "grassroots",
+        "health"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#f472b6",
+      "lat": 42.397,
+      "lng": -71.033,
+      "member_ids": [
+        "ace",
+        "reep",
+        "greenroots",
+        "cps",
+        "naicob",
+        "boston_can",
+        "vietaid",
+        "pioneer_asthma",
+        "healthlink",
+        "gbpsr",
+        "spring_forward",
+        "greenroots_eco"
+      ],
+      "member_count": 12,
+      "projects": [
+        {
+          "id": "gjc_p1",
+          "name": "Cumulative Impacts Reg",
+          "description": "Implementation push on EJ cumulative-impacts regulation.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "spanish",
+            "translation"
+          ]
+        },
+        {
+          "id": "gjc_p2",
+          "name": "EJ Roundtable Series",
+          "description": "Quarterly statewide EJ roundtables.",
+          "status": "active",
+          "skills_needed": [
+            "facilitation",
+            "event logistics"
+          ]
+        },
+        {
+          "id": "gjc_p3",
+          "name": "Frontline Voices Story Bank",
+          "description": "Story-collection from frontline community members.",
+          "status": "active",
+          "skills_needed": [
+            "video editing",
+            "photography",
+            "writing"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "gjc_e1",
+          "name": "EJ Roundtable — Chelsea",
+          "date": "2026-06-22T18:00:00",
+          "location": "Chelsea Senior Center"
+        },
+        {
+          "id": "gjc_e2",
+          "name": "EJ Roundtable — Springfield",
+          "date": "2026-09-14T18:00:00",
+          "location": "Springfield Public Library"
+        },
+        {
+          "id": "gjc_e3",
+          "name": "Frontline Voices Storytelling Night",
+          "date": "2026-08-04T19:00:00",
+          "location": "Roxbury"
+        }
+      ],
+      "actions": [
+        {
+          "id": "gjc_a1",
+          "kind": "task",
+          "name": "Mobilize members for cumulative-impacts hearing",
+          "urgency": "high",
+          "skills_needed": [
+            "outreach",
+            "public speaking"
+          ],
+          "deadline": "2026-06-12"
+        },
+        {
+          "id": "gjc_a2",
+          "kind": "role",
+          "name": "EJ Roundtable Facilitator",
+          "urgency": "medium",
+          "skills_needed": [
+            "facilitation"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "gjc_a3",
+          "kind": "role",
+          "name": "Portuguese Translator",
+          "urgency": "medium",
+          "skills_needed": [
+            "portuguese",
+            "translation"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "gjc_a4",
+          "kind": "task",
+          "name": "Story Bank video editor",
+          "urgency": "low",
+          "skills_needed": [
+            "video editing"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-16T19:42:02.323Z"
+    },
+    {
+      "id": "ejlt",
+      "name": "Environmental Justice Legislative Table",
+      "abbrev": "EJ Table",
+      "description": "Coordinated table of orgs advancing EJ legislation at the State House.",
+      "focus_tags": [
+        "environmental_justice",
+        "climate_policy"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#22d3ee",
+      "lat": 42.352,
+      "lng": -71.056,
+      "member_ids": [
+        "ace",
+        "reep",
+        "greenroots",
+        "clf",
+        "mass_audubon",
+        "masspirg",
+        "crwa",
+        "elm",
+        "cps",
+        "healthlink",
+        "pioneer_asthma",
+        "naicob"
+      ],
+      "member_count": 12,
+      "projects": [
+        {
+          "id": "ejlt_p1",
+          "name": "EJ Bill Tracker",
+          "description": "Maintain shared tracker of EJ legislation.",
+          "status": "active",
+          "skills_needed": [
+            "research",
+            "data entry"
+          ]
+        },
+        {
+          "id": "ejlt_p2",
+          "name": "Joint Testimony Drives",
+          "description": "Coordinated testimony for committee hearings.",
+          "status": "active",
+          "skills_needed": [
+            "writing",
+            "public speaking",
+            "legal"
+          ]
+        },
+        {
+          "id": "ejlt_p3",
+          "name": "EJ 101 Trainings",
+          "description": "Quarterly EJ training series for allied orgs.",
+          "status": "active",
+          "skills_needed": [
+            "facilitation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "ejlt_e1",
+          "name": "Hearing Day: EJ Bills",
+          "date": "2026-06-10T10:00:00",
+          "location": "MA State House Rm A-1"
+        },
+        {
+          "id": "ejlt_e2",
+          "name": "EJ 101 Training",
+          "date": "2026-07-23T17:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "ejlt_e3",
+          "name": "EJ Tracker Update Sync",
+          "date": "2026-06-30T15:00:00",
+          "location": "Zoom"
+        }
+      ],
+      "actions": [
+        {
+          "id": "ejlt_a1",
+          "kind": "task",
+          "name": "Submit joint testimony on H.3994",
+          "urgency": "high",
+          "skills_needed": [
+            "legal",
+            "writing"
+          ],
+          "deadline": "2026-06-10"
+        },
+        {
+          "id": "ejlt_a2",
+          "kind": "role",
+          "name": "Bill Tracker Researcher",
+          "urgency": "low",
+          "skills_needed": [
+            "research",
+            "data entry"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "ejlt_a3",
+          "kind": "task",
+          "name": "Draft EJ 101 slide deck",
+          "urgency": "medium",
+          "skills_needed": [
+            "writing",
+            "graphic design"
+          ],
+          "deadline": "2026-07-20"
+        }
+      ],
+      "last_activity": "2026-05-24T19:42:02.323Z"
+    },
+    {
+      "id": "gfn",
+      "name": "Green Future Now",
+      "abbrev": "GFN",
+      "description": "Coalition campaigning for corporate polluter fees and revenue-raising climate finance in MA.",
+      "focus_tags": [
+        "climate_policy",
+        "just_transition"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#facc15",
+      "lat": 42.354,
+      "lng": -71.132,
+      "member_ids": [
+        "sierra_ma",
+        "masspirg",
+        "clf",
+        "elm",
+        "jalsa",
+        "cwa",
+        "climate_xc",
+        "food_water",
+        "prog_dems",
+        "350ma",
+        "mothers"
+      ],
+      "member_count": 11,
+      "projects": [
+        {
+          "id": "gfn_p1",
+          "name": "Polluter Fee Campaign",
+          "description": "Pass corporate polluter fees in MA.",
+          "status": "active",
+          "skills_needed": [
+            "public speaking",
+            "writing",
+            "outreach"
+          ]
+        },
+        {
+          "id": "gfn_p2",
+          "name": "Member Education Series",
+          "description": "Workshops on revenue-raising climate finance.",
+          "status": "active",
+          "skills_needed": [
+            "facilitation",
+            "graphic design"
+          ]
+        },
+        {
+          "id": "gfn_p3",
+          "name": "Polluter Database Build",
+          "description": "Public-facing database of MA's top corporate emitters.",
+          "status": "planning",
+          "skills_needed": [
+            "data entry",
+            "research"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "gfn_e1",
+          "name": "Polluter Fee Briefing",
+          "date": "2026-06-14T12:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "gfn_e2",
+          "name": "Member Workshop: Revenue Tools",
+          "date": "2026-07-21T17:30:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "gfn_e3",
+          "name": "Public Forum on Polluter Fees",
+          "date": "2026-09-25T18:30:00",
+          "location": "Cambridge"
+        }
+      ],
+      "actions": [
+        {
+          "id": "gfn_a1",
+          "kind": "task",
+          "name": "Member-org sign-on by 6/20",
+          "urgency": "medium",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": "2026-06-20"
+        },
+        {
+          "id": "gfn_a2",
+          "kind": "role",
+          "name": "Policy Researcher",
+          "urgency": "low",
+          "skills_needed": [
+            "research",
+            "writing"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "gfn_a3",
+          "kind": "task",
+          "name": "Polluter Database data entry",
+          "urgency": "low",
+          "skills_needed": [
+            "data entry"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-20T19:42:02.323Z"
+    },
+    {
+      "id": "ghs",
+      "name": "Green and Healthy Schools",
+      "abbrev": "GHS",
+      "description": "Coalition advancing healthy, low-carbon school facilities across Massachusetts.",
+      "focus_tags": [
+        "green_buildings",
+        "school_clubs",
+        "health"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#fb923c",
+      "lat": 42.2626,
+      "lng": -71.8023,
+      "member_ids": [
+        "century21",
+        "aft_mass",
+        "center_green_schools",
+        "chps",
+        "cooler_communities",
+        "mfaa",
+        "mapc",
+        "pioneer_asthma",
+        "students_equity",
+        "undauntedk12",
+        "mass_climate_edu"
+      ],
+      "member_count": 11,
+      "projects": [
+        {
+          "id": "ghs_p1",
+          "name": "Healthy Schools Audit",
+          "description": "Indoor-air-quality audits at 20 MA schools.",
+          "status": "active",
+          "skills_needed": [
+            "data entry",
+            "research"
+          ]
+        },
+        {
+          "id": "ghs_p2",
+          "name": "Solar-on-Schools Map",
+          "description": "Statewide map of school solar installations.",
+          "status": "active",
+          "skills_needed": [
+            "data entry",
+            "graphic design"
+          ]
+        },
+        {
+          "id": "ghs_p3",
+          "name": "School Heat-Pump Pilots",
+          "description": "Pilot heat-pump retrofits at two pilot districts.",
+          "status": "planning",
+          "skills_needed": [
+            "research"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "ghs_e1",
+          "name": "Green Schools Symposium",
+          "date": "2026-09-20T09:00:00",
+          "location": "UMass Boston"
+        },
+        {
+          "id": "ghs_e2",
+          "name": "IAQ Audit Training",
+          "date": "2026-07-11T13:00:00",
+          "location": "Worcester"
+        },
+        {
+          "id": "ghs_e3",
+          "name": "School Solar Site Visit",
+          "date": "2026-08-14T10:00:00",
+          "location": "Lowell"
+        }
+      ],
+      "actions": [
+        {
+          "id": "ghs_a1",
+          "kind": "task",
+          "name": "Help audit IAQ at Pioneer Valley schools",
+          "urgency": "medium",
+          "skills_needed": [
+            "data entry"
+          ],
+          "deadline": "2026-07-30"
+        },
+        {
+          "id": "ghs_a2",
+          "kind": "role",
+          "name": "Solar Map Researcher",
+          "urgency": "low",
+          "skills_needed": [
+            "research"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "ghs_a3",
+          "kind": "task",
+          "name": "Photo essay for Symposium",
+          "urgency": "low",
+          "skills_needed": [
+            "photography"
+          ],
+          "deadline": "2026-09-19"
+        }
+      ],
+      "last_activity": "2026-05-15T19:42:02.323Z"
+    },
+    {
+      "id": "hero",
+      "name": "HERO Coalition",
+      "abbrev": "HERO",
+      "description": "Coalition pushing efficient, electrified, equitable homes and buildings policy.",
+      "focus_tags": [
+        "green_buildings",
+        "clean_energy",
+        "housing"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#f87171",
+      "lat": 42.3736,
+      "lng": -71.119,
+      "member_ids": [
+        "mass_audubon",
+        "sierra_ma",
+        "geca",
+        "passive_house",
+        "clf",
+        "mothers",
+        "climate_xc",
+        "uuma",
+        "beat",
+        "green_newton",
+        "green_cambridge",
+        "elm"
+      ],
+      "member_count": 12,
+      "projects": [
+        {
+          "id": "hero_p1",
+          "name": "Building Code Update",
+          "description": "Push the next stretch energy code.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "writing",
+            "research"
+          ]
+        },
+        {
+          "id": "hero_p2",
+          "name": "Heat-Pump Tax Credit",
+          "description": "State-level credit for residential heat-pump installs.",
+          "status": "active",
+          "skills_needed": [
+            "writing",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "hero_p3",
+          "name": "Renter Decarbonization Toolkit",
+          "description": "Decarbonization-toolkit for tenant organizers.",
+          "status": "active",
+          "skills_needed": [
+            "writing",
+            "graphic design",
+            "translation"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "hero_e1",
+          "name": "Buildings Working Group",
+          "date": "2026-06-09T16:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "hero_e2",
+          "name": "Stretch Code Public Comment",
+          "date": "2026-06-30T17:00:00",
+          "location": "MA DOER"
+        },
+        {
+          "id": "hero_e3",
+          "name": "Renter Toolkit Launch",
+          "date": "2026-10-02T18:00:00",
+          "location": "Boston Public Library"
+        }
+      ],
+      "actions": [
+        {
+          "id": "hero_a1",
+          "kind": "task",
+          "name": "Comment on stretch code",
+          "urgency": "high",
+          "skills_needed": [
+            "writing"
+          ],
+          "deadline": "2026-06-30"
+        },
+        {
+          "id": "hero_a2",
+          "kind": "task",
+          "name": "Renter Toolkit translation (Spanish)",
+          "urgency": "medium",
+          "skills_needed": [
+            "spanish",
+            "translation"
+          ],
+          "deadline": "2026-08-15"
+        },
+        {
+          "id": "hero_a3",
+          "kind": "role",
+          "name": "Heat-Pump Outreach Volunteer",
+          "urgency": "low",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-24T19:42:02.323Z"
+    },
+    {
+      "id": "zcrf",
+      "name": "Zero Carbon Renovation Fund",
+      "abbrev": "ZCRF",
+      "description": "Coalition advocating for a state fund to deep-retrofit existing buildings to zero carbon.",
+      "focus_tags": [
+        "green_buildings",
+        "clean_energy",
+        "housing"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#38bdf8",
+      "lat": 42.326,
+      "lng": -71.071,
+      "member_ids": [
+        "passive_house",
+        "mass_audubon",
+        "sierra_ma",
+        "geca",
+        "clf",
+        "elm",
+        "climate_xc",
+        "mcan",
+        "sunrise_boston",
+        "mothers",
+        "green_cambridge",
+        "green_newton",
+        "climate_bkln",
+        "gbpsr"
+      ],
+      "member_count": 14,
+      "projects": [
+        {
+          "id": "zcrf_p1",
+          "name": "ZCRF Bill",
+          "description": "Establish the Zero Carbon Renovation Fund in MA budget.",
+          "status": "active",
+          "skills_needed": [
+            "legal",
+            "writing",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "zcrf_p2",
+          "name": "Pilot Building Selection",
+          "description": "Identify 10 pilot retrofit buildings statewide.",
+          "status": "active",
+          "skills_needed": [
+            "research",
+            "outreach"
+          ]
+        },
+        {
+          "id": "zcrf_p3",
+          "name": "Workforce Pipeline",
+          "description": "Build workforce pipeline for the retrofit fund.",
+          "status": "planning",
+          "skills_needed": [
+            "research"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "zcrf_e1",
+          "name": "Budget Strategy Call",
+          "date": "2026-06-03T15:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "zcrf_e2",
+          "name": "Pilot Building Tour: Cambridge",
+          "date": "2026-08-19T14:00:00",
+          "location": "Cambridge"
+        },
+        {
+          "id": "zcrf_e3",
+          "name": "Workforce Pipeline Convening",
+          "date": "2026-09-10T10:00:00",
+          "location": "Boston"
+        }
+      ],
+      "actions": [
+        {
+          "id": "zcrf_a1",
+          "kind": "task",
+          "name": "Pilot Building Nomination",
+          "urgency": "medium",
+          "skills_needed": [
+            "outreach"
+          ],
+          "deadline": "2026-07-15"
+        },
+        {
+          "id": "zcrf_a2",
+          "kind": "role",
+          "name": "Budget Tracker Volunteer",
+          "urgency": "low",
+          "skills_needed": [
+            "data entry"
+          ],
+          "deadline": null
+        },
+        {
+          "id": "zcrf_a3",
+          "kind": "task",
+          "name": "Convening logistics support",
+          "urgency": "medium",
+          "skills_needed": [
+            "event logistics"
+          ],
+          "deadline": "2026-09-05"
+        }
+      ],
+      "last_activity": "2026-05-21T19:42:02.323Z"
+    },
+    {
+      "id": "crs",
+      "name": "Climate Resilient Schools Coalition",
+      "abbrev": "CRS",
+      "description": "Coalition organizing for climate-resilient, equitable school infrastructure investments.",
+      "focus_tags": [
+        "green_buildings",
+        "school_clubs",
+        "climate_policy"
+      ],
+      "geographic_scope": "statewide",
+      "color": "#a3e635",
+      "lat": 42.1015,
+      "lng": -72.5898,
+      "member_ids": [
+        "mass_climate_edu",
+        "undauntedk12",
+        "aft_mass",
+        "center_green_schools",
+        "chps",
+        "cooler_communities",
+        "mapc",
+        "century21",
+        "mfaa"
+      ],
+      "member_count": 9,
+      "projects": [
+        {
+          "id": "crs_p1",
+          "name": "Climate Resilience Audit",
+          "description": "Audit 15 districts for climate-resilient capital plans.",
+          "status": "active",
+          "skills_needed": [
+            "research",
+            "data entry"
+          ]
+        },
+        {
+          "id": "crs_p2",
+          "name": "MSBA Engagement",
+          "description": "Push MSBA to weight climate resilience in school funding.",
+          "status": "active",
+          "skills_needed": [
+            "writing",
+            "public speaking"
+          ]
+        },
+        {
+          "id": "crs_p3",
+          "name": "Cooling Center Mapping",
+          "description": "Map cooling centers and heat-island risk by district.",
+          "status": "active",
+          "skills_needed": [
+            "data entry",
+            "graphic design"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "crs_e1",
+          "name": "Resilient Schools Workshop",
+          "date": "2026-07-12T09:00:00",
+          "location": "Worcester"
+        },
+        {
+          "id": "crs_e2",
+          "name": "MSBA Listening Session",
+          "date": "2026-08-26T17:00:00",
+          "location": "Zoom"
+        },
+        {
+          "id": "crs_e3",
+          "name": "Cooling Center Mapping Sprint",
+          "date": "2026-07-30T13:00:00",
+          "location": "Boston"
+        }
+      ],
+      "actions": [
+        {
+          "id": "crs_a1",
+          "kind": "task",
+          "name": "Identify district capital plans to audit",
+          "urgency": "medium",
+          "skills_needed": [
+            "research"
+          ],
+          "deadline": "2026-07-01"
+        },
+        {
+          "id": "crs_a2",
+          "kind": "task",
+          "name": "Cooling Center Mapping sprint",
+          "urgency": "high",
+          "skills_needed": [
+            "data entry",
+            "graphic design"
+          ],
+          "deadline": "2026-07-30"
+        },
+        {
+          "id": "crs_a3",
+          "kind": "role",
+          "name": "MSBA Hearing Speaker",
+          "urgency": "medium",
+          "skills_needed": [
+            "public speaking"
+          ],
+          "deadline": null
+        }
+      ],
+      "last_activity": "2026-05-13T19:42:02.323Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "bls_youthcan",
+      "name": "BLS YouthCAN",
+      "type": "school_club",
+      "geographic_focus": "Boston",
+      "description": "Boston Latin School's Youth Climate Action Network.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.32698899552088,
+      "lng": -71.03130312367853,
+      "last_activity": "2026-04-26T19:42:02.323Z"
+    },
+    {
+      "id": "andover_climate_lobby",
+      "name": "Andover Climate Lobby",
+      "type": "school_club",
+      "geographic_focus": "Andover",
+      "description": "Phillips Academy student-led climate advocacy group.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.65412923090144,
+      "lng": -71.10171809839264,
+      "last_activity": "2026-04-04T19:42:02.323Z"
+    },
+    {
+      "id": "andover_hs_env",
+      "name": "Andover HS Environmental Club",
+      "type": "school_club",
+      "geographic_focus": "Andover",
+      "description": "Andover High School environmental club.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.6303465663502,
+      "lng": -71.1678271272877,
+      "last_activity": "2026-05-06T19:42:02.323Z"
+    },
+    {
+      "id": "belmont_hs",
+      "name": "Belmont HS Climate Club",
+      "type": "school_club",
+      "geographic_focus": "Belmont",
+      "description": "Belmont High School climate club.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.40973161455344,
+      "lng": -71.14008717878505,
+      "last_activity": "2026-05-13T19:42:02.323Z"
+    },
+    {
+      "id": "may4cj",
+      "name": "MA Youth for Climate Justice",
+      "type": "youth_org",
+      "geographic_focus": "statewide",
+      "description": "Statewide youth-led climate strike organizers.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.34936710718935,
+      "lng": -71.04296024134383,
+      "last_activity": "2026-05-24T19:42:02.323Z"
+    },
+    {
+      "id": "lorax",
+      "name": "Lorax Climate Lobby (Milton Academy)",
+      "type": "school_club",
+      "geographic_focus": "Milton",
+      "description": "Milton Academy student climate lobby.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.282446532442364,
+      "lng": -71.05438149301531,
+      "last_activity": "2026-04-19T19:42:02.323Z"
+    },
+    {
+      "id": "green_heifers",
+      "name": "Green Heifers (Gann Academy)",
+      "type": "school_club",
+      "geographic_focus": "Waltham",
+      "description": "Gann Academy environmental club.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.35768242668911,
+      "lng": -71.26307442925321,
+      "last_activity": "2026-04-12T19:42:02.323Z"
+    },
+    {
+      "id": "ccl_youth",
+      "name": "CCL MA Youth",
+      "type": "youth_org",
+      "geographic_focus": "statewide",
+      "description": "Citizens' Climate Lobby MA youth chapter.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.36265050772942,
+      "lng": -71.02145094759523,
+      "last_activity": "2026-04-11T19:42:02.323Z"
+    },
+    {
+      "id": "fff_ma",
+      "name": "Fridays For Future MA",
+      "type": "youth_org",
+      "geographic_focus": "statewide",
+      "description": "MA chapter of the global youth climate strike movement.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.3624110169218,
+      "lng": -71.04485746118011,
+      "last_activity": "2026-04-07T19:42:02.323Z"
+    },
+    {
+      "id": "mass_climate_edu",
+      "name": "Mass Climate Education Org",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Climate curriculum and education advocacy.",
+      "coalition_ids": [
+        "mycc",
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.37140870685461,
+      "lng": -71.05548707640533,
+      "last_activity": "2026-05-14T19:42:02.323Z"
+    },
+    {
+      "id": "spring_forward",
+      "name": "Spring Forward",
+      "type": "youth_org",
+      "geographic_focus": "Boston",
+      "description": "Youth EJ leadership development program.",
+      "coalition_ids": [
+        "mycc",
+        "gjc"
+      ],
+      "lat": 42.34759798708643,
+      "lng": -71.09206242749661,
+      "last_activity": "2026-05-01T19:42:02.323Z"
+    },
+    {
+      "id": "greenroots_eco",
+      "name": "Greenroots ECO Team",
+      "type": "youth_org",
+      "geographic_focus": "Chelsea",
+      "description": "Chelsea youth EJ team within GreenRoots.",
+      "coalition_ids": [
+        "mycc",
+        "gjc"
+      ],
+      "lat": 42.35611547812329,
+      "lng": -71.00651288591442,
+      "last_activity": "2026-04-02T19:42:02.323Z"
+    },
+    {
+      "id": "bsac",
+      "name": "Boston Student Advisory Council",
+      "type": "youth_org",
+      "geographic_focus": "Boston",
+      "description": "Elected BPS students advising the superintendent.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.34842437900133,
+      "lng": -71.05808904118848,
+      "last_activity": "2026-04-08T19:42:02.323Z"
+    },
+    {
+      "id": "project9",
+      "name": "Project 9",
+      "type": "youth_org",
+      "geographic_focus": "Boston",
+      "description": "Youth civic-engagement organization.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.327582112406965,
+      "lng": -71.06914150355854,
+      "last_activity": "2026-04-01T19:42:02.323Z"
+    },
+    {
+      "id": "act_on_mass",
+      "name": "Act on Mass",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Transparency and democracy reform at the MA State House.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.34690643941985,
+      "lng": -71.09785686408095,
+      "last_activity": "2026-04-13T19:42:02.323Z"
+    },
+    {
+      "id": "vietaid",
+      "name": "VietAID",
+      "type": "501c3",
+      "geographic_focus": "Boston",
+      "description": "Vietnamese American community development organization in Dorchester.",
+      "coalition_ids": [
+        "mycc",
+        "gjc"
+      ],
+      "lat": 42.36338683079289,
+      "lng": -71.06592292104882,
+      "last_activity": "2026-05-17T19:42:02.323Z"
+    },
+    {
+      "id": "sunrise_boston",
+      "name": "Sunrise Boston",
+      "type": "501c4",
+      "geographic_focus": "Boston",
+      "description": "Boston hub of the Sunrise Movement.",
+      "coalition_ids": [
+        "mycc",
+        "mpf",
+        "mara",
+        "zcrf"
+      ],
+      "lat": 42.36290010013252,
+      "lng": -71.06437543762547,
+      "last_activity": "2026-04-13T19:42:02.323Z"
+    },
+    {
+      "id": "sunrise_worcester",
+      "name": "Sunrise Worcester",
+      "type": "youth_org",
+      "geographic_focus": "Worcester",
+      "description": "Worcester hub of the Sunrise Movement.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.268189087225046,
+      "lng": -71.81859977820842,
+      "last_activity": "2026-04-05T19:42:02.323Z"
+    },
+    {
+      "id": "sunrise_ipswich",
+      "name": "Sunrise Ipswich",
+      "type": "youth_org",
+      "geographic_focus": "Ipswich",
+      "description": "Ipswich hub of the Sunrise Movement.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.67260789971763,
+      "lng": -70.8348208645059,
+      "last_activity": "2026-05-20T19:42:02.323Z"
+    },
+    {
+      "id": "sunrise_western_ma",
+      "name": "Sunrise Western Mass",
+      "type": "youth_org",
+      "geographic_focus": "Western MA",
+      "description": "Western MA hub of the Sunrise Movement.",
+      "coalition_ids": [
+        "mycc",
+        "mpf"
+      ],
+      "lat": 42.08147840584474,
+      "lng": -72.58213666670926,
+      "last_activity": "2026-04-28T19:42:02.323Z"
+    },
+    {
+      "id": "sunrise_lex",
+      "name": "Sunrise Lexington",
+      "type": "youth_org",
+      "geographic_focus": "Lexington",
+      "description": "Lexington hub of the Sunrise Movement.",
+      "coalition_ids": [
+        "mycc"
+      ],
+      "lat": 42.44787012325098,
+      "lng": -71.26284820086023,
+      "last_activity": "2026-04-13T19:42:02.323Z"
+    },
+    {
+      "id": "350ma",
+      "name": "350 Mass",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Statewide volunteer-powered climate movement, MA chapter of 350.org.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gfn"
+      ],
+      "lat": 42.37738577684757,
+      "lng": -71.04003438855963,
+      "last_activity": "2026-04-12T19:42:02.323Z"
+    },
+    {
+      "id": "350cape",
+      "name": "350MA Cape Cod",
+      "type": "volunteer",
+      "geographic_focus": "Cape Cod",
+      "description": "Cape Cod node of 350 Mass.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 41.72946465626733,
+      "lng": -70.29112460642574,
+      "last_activity": "2026-04-13T19:42:02.323Z"
+    },
+    {
+      "id": "350central",
+      "name": "350MA Central Mass",
+      "type": "volunteer",
+      "geographic_focus": "Central MA",
+      "description": "Central MA node of 350 Mass.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.351710832034954,
+      "lng": -71.8156328416157,
+      "last_activity": "2026-04-20T19:42:02.323Z"
+    },
+    {
+      "id": "350berks",
+      "name": "350MA Berkshires",
+      "type": "volunteer",
+      "geographic_focus": "Berkshires",
+      "description": "Berkshires node of 350 Mass.",
+      "coalition_ids": [
+        "mara"
+      ],
+      "lat": 42.4402153723551,
+      "lng": -73.23555638947266,
+      "last_activity": "2026-04-23T19:42:02.323Z"
+    },
+    {
+      "id": "ace",
+      "name": "Alternatives for Community & Environment",
+      "type": "501c3",
+      "geographic_focus": "Roxbury",
+      "description": "Roxbury-based EJ organization, founded 1993.",
+      "coalition_ids": [
+        "mycc",
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 42.31732786433888,
+      "lng": -71.0935970399663,
+      "last_activity": "2026-04-02T19:42:02.323Z"
+    },
+    {
+      "id": "reep",
+      "name": "Roxbury Environmental Empowerment Project",
+      "type": "501c3",
+      "geographic_focus": "Roxbury",
+      "description": "Youth EJ program of ACE.",
+      "coalition_ids": [
+        "mycc",
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 42.29873574592495,
+      "lng": -71.05703623872812,
+      "last_activity": "2026-05-02T19:42:02.323Z"
+    },
+    {
+      "id": "greenroots",
+      "name": "GreenRoots",
+      "type": "501c3",
+      "geographic_focus": "Chelsea",
+      "description": "Chelsea-based EJ organization.",
+      "coalition_ids": [
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 42.377267472650075,
+      "lng": -71.06411079503633,
+      "last_activity": "2026-04-05T19:42:02.323Z"
+    },
+    {
+      "id": "naicob",
+      "name": "North American Indian Center of Boston",
+      "type": "501c3",
+      "geographic_focus": "Boston",
+      "description": "Indigenous community center with climate/EJ work.",
+      "coalition_ids": [
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 42.3848219947242,
+      "lng": -71.03284983529552,
+      "last_activity": "2026-05-26T19:42:02.323Z"
+    },
+    {
+      "id": "cps",
+      "name": "Coalition for Social Justice",
+      "type": "501c3",
+      "geographic_focus": "Southeastern MA",
+      "description": "Southeastern MA economic and environmental justice coalition.",
+      "coalition_ids": [
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 41.70416567992386,
+      "lng": -71.17178698805591,
+      "last_activity": "2026-05-10T19:42:02.323Z"
+    },
+    {
+      "id": "pioneer_asthma",
+      "name": "Pioneer Valley Asthma Coalition",
+      "type": "501c3",
+      "geographic_focus": "Pioneer Valley",
+      "description": "Asthma-focused public-health coalition.",
+      "coalition_ids": [
+        "gjc",
+        "ejlt",
+        "ghs"
+      ],
+      "lat": 42.30860473273199,
+      "lng": -72.66673962892254,
+      "last_activity": "2026-05-15T19:42:02.323Z"
+    },
+    {
+      "id": "healthlink",
+      "name": "HealthLink",
+      "type": "501c3",
+      "geographic_focus": "North Shore",
+      "description": "North Shore public-health/environmental org.",
+      "coalition_ids": [
+        "mpf",
+        "gjc",
+        "ejlt"
+      ],
+      "lat": 42.52556805514235,
+      "lng": -70.8908022452998,
+      "last_activity": "2026-04-16T19:42:02.323Z"
+    },
+    {
+      "id": "salem_env",
+      "name": "Salem Alliance for the Environment",
+      "type": "501c3",
+      "geographic_focus": "Salem",
+      "description": "Salem-area environmental advocacy.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.51770472788989,
+      "lng": -70.8880492833331,
+      "last_activity": "2026-05-23T19:42:02.324Z"
+    },
+    {
+      "id": "mass_audubon",
+      "name": "Mass Audubon",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Largest MA conservation org with significant climate program.",
+      "coalition_ids": [
+        "mycc",
+        "mpf",
+        "mara",
+        "ejlt",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.351347424920995,
+      "lng": -71.03977303335358,
+      "last_activity": "2026-03-28T19:42:02.324Z"
+    },
+    {
+      "id": "audubon_metro",
+      "name": "Mass Audubon — Metro West",
+      "type": "501c3",
+      "geographic_focus": "Metro West",
+      "description": "Metro West sanctuary network of Mass Audubon.",
+      "coalition_ids": [
+        "mycc",
+        "mpf"
+      ],
+      "lat": 42.297268555252785,
+      "lng": -71.43201516518954,
+      "last_activity": "2026-04-20T19:42:02.324Z"
+    },
+    {
+      "id": "sierra_ma",
+      "name": "Sierra Club Massachusetts",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "MA chapter of the Sierra Club.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gfn",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.37720226666199,
+      "lng": -71.05402929303597,
+      "last_activity": "2026-04-27T19:42:02.324Z"
+    },
+    {
+      "id": "mcan",
+      "name": "Mass Climate Action Network",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Network of local MA climate-action groups.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "zcrf"
+      ],
+      "lat": 42.354729608306414,
+      "lng": -71.08559901636768,
+      "last_activity": "2026-04-26T19:42:02.324Z"
+    },
+    {
+      "id": "envt_ma",
+      "name": "Environment Massachusetts",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Statewide environmental policy advocacy.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.37301538251273,
+      "lng": -71.0978735110588,
+      "last_activity": "2026-05-18T19:42:02.324Z"
+    },
+    {
+      "id": "clf",
+      "name": "Conservation Law Foundation",
+      "type": "501c3",
+      "geographic_focus": "New England",
+      "description": "Regional environmental legal advocacy organization.",
+      "coalition_ids": [
+        "mpf",
+        "ejlt",
+        "gfn",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.33147483608306,
+      "lng": -71.09587179757308,
+      "last_activity": "2026-05-02T19:42:02.324Z"
+    },
+    {
+      "id": "elm",
+      "name": "Environmental League of MA",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Statewide environmental policy organization.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "ejlt",
+        "gfn",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.39567290673156,
+      "lng": -71.05146708001121,
+      "last_activity": "2026-04-24T19:42:02.324Z"
+    },
+    {
+      "id": "cwa",
+      "name": "Clean Water Action",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Water-and-climate policy advocacy.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gfn"
+      ],
+      "lat": 42.35594210787407,
+      "lng": -71.07841992275685,
+      "last_activity": "2026-04-21T19:42:02.324Z"
+    },
+    {
+      "id": "climate_xc",
+      "name": "Climate XChange",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Carbon pricing and climate-policy think tank.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gfn",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.33608489680068,
+      "lng": -71.0471541937309,
+      "last_activity": "2026-05-10T19:42:02.324Z"
+    },
+    {
+      "id": "gbpsr",
+      "name": "Greater Boston Physicians for Social Responsibility",
+      "type": "501c3",
+      "geographic_focus": "Greater Boston",
+      "description": "Health professionals advocating on climate and EJ.",
+      "coalition_ids": [
+        "mpf",
+        "gjc",
+        "zcrf"
+      ],
+      "lat": 42.333687462106376,
+      "lng": -71.082581513078,
+      "last_activity": "2026-04-02T19:42:02.324Z"
+    },
+    {
+      "id": "geca",
+      "name": "Green Energy Consumers Alliance",
+      "type": "501c3",
+      "geographic_focus": "New England",
+      "description": "Consumer-facing clean-energy nonprofit.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.39019890319618,
+      "lng": -71.05612753041669,
+      "last_activity": "2026-04-25T19:42:02.324Z"
+    },
+    {
+      "id": "masspirg",
+      "name": "MASSPIRG",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Statewide public interest research group.",
+      "coalition_ids": [
+        "mpf",
+        "ejlt",
+        "gfn"
+      ],
+      "lat": 42.39616243088143,
+      "lng": -71.04394821938338,
+      "last_activity": "2026-05-08T19:42:02.324Z"
+    },
+    {
+      "id": "food_water",
+      "name": "Food & Water Watch",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Food, water, and climate policy advocacy.",
+      "coalition_ids": [
+        "mpf",
+        "gfn"
+      ],
+      "lat": 42.36859176781271,
+      "lng": -71.0791507977031,
+      "last_activity": "2026-04-17T19:42:02.324Z"
+    },
+    {
+      "id": "elf",
+      "name": "Mass Land Trust Coalition",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Coalition of MA land trusts.",
+      "coalition_ids": [],
+      "lat": 42.36430625765846,
+      "lng": -71.06797951084862,
+      "last_activity": "2026-05-03T19:42:02.324Z"
+    },
+    {
+      "id": "crwa",
+      "name": "Charles River Watershed Association",
+      "type": "501c3",
+      "geographic_focus": "Charles River watershed",
+      "description": "Watershed-focused environmental org.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "ejlt"
+      ],
+      "lat": 42.36397610962624,
+      "lng": -71.08165777688889,
+      "last_activity": "2026-04-02T19:42:02.324Z"
+    },
+    {
+      "id": "mt_grace",
+      "name": "Mount Grace Land Conservation Trust",
+      "type": "501c3",
+      "geographic_focus": "North Quabbin",
+      "description": "North Central MA land conservation trust.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.56096722187837,
+      "lng": -72.33607664196404,
+      "last_activity": "2026-04-08T19:42:02.324Z"
+    },
+    {
+      "id": "beat",
+      "name": "Berkshire Environmental Action Team",
+      "type": "501c3",
+      "geographic_focus": "Berkshires",
+      "description": "Berkshire-region environmental org.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "hero"
+      ],
+      "lat": 42.454993774426256,
+      "lng": -73.26817106147023,
+      "last_activity": "2026-04-29T19:42:02.324Z"
+    },
+    {
+      "id": "mass_peace",
+      "name": "Massachusetts Peace Action",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Peace org with climate/disarmament work.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.398166595169634,
+      "lng": -71.07323614877981,
+      "last_activity": "2026-05-14T19:42:02.324Z"
+    },
+    {
+      "id": "miph",
+      "name": "Massachusetts Interfaith Power & Light",
+      "type": "faith_org",
+      "geographic_focus": "statewide",
+      "description": "Faith-based climate advocacy network.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.397124531990066,
+      "lng": -71.05560001714083,
+      "last_activity": "2026-04-15T19:42:02.324Z"
+    },
+    {
+      "id": "jcan",
+      "name": "Jewish Climate Action Network",
+      "type": "faith_org",
+      "geographic_focus": "statewide",
+      "description": "Jewish climate advocacy and organizing.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.38479387012995,
+      "lng": -71.08185433726698,
+      "last_activity": "2026-03-29T19:42:02.324Z"
+    },
+    {
+      "id": "jalsa",
+      "name": "Jewish Alliance for Law and Social Action",
+      "type": "faith_org",
+      "geographic_focus": "statewide",
+      "description": "Jewish social-justice and policy advocacy.",
+      "coalition_ids": [
+        "mpf",
+        "gfn"
+      ],
+      "lat": 42.35593278407128,
+      "lng": -71.08645841566556,
+      "last_activity": "2026-04-27T19:42:02.324Z"
+    },
+    {
+      "id": "uuma",
+      "name": "UU Mass Action",
+      "type": "faith_org",
+      "geographic_focus": "statewide",
+      "description": "Unitarian Universalist social-justice arm in MA.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "hero"
+      ],
+      "lat": 42.337493287938656,
+      "lng": -71.05742545922425,
+      "last_activity": "2026-04-18T19:42:02.324Z"
+    },
+    {
+      "id": "afsc",
+      "name": "American Friends Service Committee — Northeast",
+      "type": "faith_org",
+      "geographic_focus": "Northeast",
+      "description": "Quaker peace and justice organization, Northeast region.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.34563069539335,
+      "lng": -71.07865214282033,
+      "last_activity": "2026-04-22T19:42:02.324Z"
+    },
+    {
+      "id": "isbcc",
+      "name": "Islamic Society of Boston Cultural Center",
+      "type": "faith_org",
+      "geographic_focus": "Boston",
+      "description": "Boston Muslim community institution with sustainability work.",
+      "coalition_ids": [],
+      "lat": 42.3211214215538,
+      "lng": -71.03425710937837,
+      "last_activity": "2026-05-03T19:42:02.324Z"
+    },
+    {
+      "id": "bodhi",
+      "name": "Bodhisara Dharma Community",
+      "type": "faith_org",
+      "geographic_focus": "statewide",
+      "description": "Buddhist community with climate engagement.",
+      "coalition_ids": [],
+      "lat": 42.35323774827369,
+      "lng": -71.07422553430824,
+      "last_activity": "2026-05-19T19:42:02.324Z"
+    },
+    {
+      "id": "first_parish_concord",
+      "name": "First Parish Concord — Social Action",
+      "type": "faith_org",
+      "geographic_focus": "Concord",
+      "description": "UU congregation environmental-justice team.",
+      "coalition_ids": [],
+      "lat": 42.429722159798715,
+      "lng": -71.35033558054359,
+      "last_activity": "2026-05-25T19:42:02.324Z"
+    },
+    {
+      "id": "mothers",
+      "name": "Mothers Out Front",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Mothers organizing for a livable climate.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gfn",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.36721743275251,
+      "lng": -71.04568238646915,
+      "last_activity": "2026-04-09T19:42:02.324Z"
+    },
+    {
+      "id": "green_cambridge",
+      "name": "Green Cambridge",
+      "type": "volunteer",
+      "geographic_focus": "Cambridge",
+      "description": "Cambridge climate advocacy.",
+      "coalition_ids": [
+        "mara",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.36784790434631,
+      "lng": -71.13718972370208,
+      "last_activity": "2026-05-20T19:42:02.324Z"
+    },
+    {
+      "id": "green_newton",
+      "name": "Green Newton",
+      "type": "volunteer",
+      "geographic_focus": "Newton",
+      "description": "Newton climate advocacy.",
+      "coalition_ids": [
+        "mara",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.35295565317156,
+      "lng": -71.20994225594019,
+      "last_activity": "2026-05-16T19:42:02.324Z"
+    },
+    {
+      "id": "boston_can",
+      "name": "Boston Climate Action Network",
+      "type": "volunteer",
+      "geographic_focus": "Boston",
+      "description": "Boston neighborhood climate organizing.",
+      "coalition_ids": [
+        "mpf",
+        "mara",
+        "gjc"
+      ],
+      "lat": 42.32351058118041,
+      "lng": -71.08259311262837,
+      "last_activity": "2026-04-11T19:42:02.324Z"
+    },
+    {
+      "id": "qcan",
+      "name": "Quincy Climate Action Network",
+      "type": "volunteer",
+      "geographic_focus": "Quincy",
+      "description": "Quincy climate advocacy.",
+      "coalition_ids": [
+        "mpf",
+        "mara"
+      ],
+      "lat": 42.27944533511818,
+      "lng": -70.99296440074603,
+      "last_activity": "2026-03-31T19:42:02.324Z"
+    },
+    {
+      "id": "climate_bkln",
+      "name": "Climate Action Brookline",
+      "type": "volunteer",
+      "geographic_focus": "Brookline",
+      "description": "Brookline climate advocacy.",
+      "coalition_ids": [
+        "mpf",
+        "zcrf"
+      ],
+      "lat": 42.31560854738928,
+      "lng": -71.09118380081902,
+      "last_activity": "2026-05-24T19:42:02.324Z"
+    },
+    {
+      "id": "sustain_milton",
+      "name": "Sustainable Milton",
+      "type": "volunteer",
+      "geographic_focus": "Milton",
+      "description": "Milton local sustainability group.",
+      "coalition_ids": [],
+      "lat": 42.241074044563106,
+      "lng": -71.07238822077574,
+      "last_activity": "2026-04-11T19:42:02.324Z"
+    },
+    {
+      "id": "canton_residents",
+      "name": "Canton Residents for a Sustainable Equitable Future",
+      "type": "volunteer",
+      "geographic_focus": "Canton",
+      "description": "Canton sustainability organizing.",
+      "coalition_ids": [],
+      "lat": 42.12726745159162,
+      "lng": -71.16178254031325,
+      "last_activity": "2026-04-15T19:42:02.324Z"
+    },
+    {
+      "id": "fore_river",
+      "name": "Fore River Residents Against the Compressor Station",
+      "type": "volunteer",
+      "geographic_focus": "Weymouth",
+      "description": "Weymouth/Quincy compressor-station opposition.",
+      "coalition_ids": [],
+      "lat": 42.24118166725233,
+      "lng": -70.91732214447057,
+      "last_activity": "2026-05-06T19:42:02.324Z"
+    },
+    {
+      "id": "climate_code_blue",
+      "name": "Climate Code Blue",
+      "type": "volunteer",
+      "geographic_focus": "Cape Cod",
+      "description": "Cape Cod climate advocacy group.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 41.699019996644026,
+      "lng": -70.33784491874802,
+      "last_activity": "2026-04-27T19:42:02.324Z"
+    },
+    {
+      "id": "xr_western",
+      "name": "XR Western Mass",
+      "type": "volunteer",
+      "geographic_focus": "Western MA",
+      "description": "Extinction Rebellion Western MA chapter.",
+      "coalition_ids": [],
+      "lat": 42.129865789763905,
+      "lng": -72.62251846101535,
+      "last_activity": "2026-03-28T19:42:02.324Z"
+    },
+    {
+      "id": "enviro_show",
+      "name": "The Enviro Show",
+      "type": "media",
+      "geographic_focus": "Western MA",
+      "description": "Western-MA environmental radio show.",
+      "coalition_ids": [],
+      "lat": 42.07257539925042,
+      "lng": -72.55279992404958,
+      "last_activity": "2026-05-22T19:42:02.324Z"
+    },
+    {
+      "id": "prog_dems",
+      "name": "Progressive Democrats of Mass",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Progressive electoral org with climate priorities.",
+      "coalition_ids": [
+        "mara",
+        "gfn"
+      ],
+      "lat": 42.321360508371455,
+      "lng": -71.03223856810732,
+      "last_activity": "2026-04-24T19:42:02.324Z"
+    },
+    {
+      "id": "century21",
+      "name": "21st Century Schools Fund",
+      "type": "501c3",
+      "geographic_focus": "national",
+      "description": "School facilities research and advocacy.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.35133764257561,
+      "lng": -71.02038805541808,
+      "last_activity": "2026-04-01T19:42:02.324Z"
+    },
+    {
+      "id": "aft_mass",
+      "name": "AFT-Mass",
+      "type": "union",
+      "geographic_focus": "statewide",
+      "description": "American Federation of Teachers, MA chapter.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.3961882271951,
+      "lng": -71.02896523368358,
+      "last_activity": "2026-04-05T19:42:02.324Z"
+    },
+    {
+      "id": "center_green_schools",
+      "name": "Center for Green Schools at US GBC",
+      "type": "501c3",
+      "geographic_focus": "national",
+      "description": "Green schools research and advocacy.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.3282577596767,
+      "lng": -71.03464626878976,
+      "last_activity": "2026-04-26T19:42:02.324Z"
+    },
+    {
+      "id": "chps",
+      "name": "Collaborative for High Performance Schools",
+      "type": "501c3",
+      "geographic_focus": "national",
+      "description": "High-performance school facilities collaborative.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.326665049736775,
+      "lng": -71.07711696446017,
+      "last_activity": "2026-04-11T19:42:02.324Z"
+    },
+    {
+      "id": "cooler_communities",
+      "name": "Cooler Communities",
+      "type": "501c3",
+      "geographic_focus": "statewide",
+      "description": "Heat-resilience and cooling for low-income communities.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.38593626103504,
+      "lng": -71.0468204493701,
+      "last_activity": "2026-05-02T19:42:02.324Z"
+    },
+    {
+      "id": "mfaa",
+      "name": "Mass Facilities Administrators Association",
+      "type": "professional",
+      "geographic_focus": "statewide",
+      "description": "MA school facilities professionals association.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.32898889136662,
+      "lng": -71.05920192341351,
+      "last_activity": "2026-04-08T19:42:02.324Z"
+    },
+    {
+      "id": "mapc",
+      "name": "Metropolitan Area Planning Council",
+      "type": "regional_gov",
+      "geographic_focus": "Greater Boston",
+      "description": "Boston-area regional planning agency.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.37152268620059,
+      "lng": -71.07706738687949,
+      "last_activity": "2026-04-04T19:42:02.324Z"
+    },
+    {
+      "id": "undauntedk12",
+      "name": "UndauntedK12",
+      "type": "501c3",
+      "geographic_focus": "national",
+      "description": "K-12 climate action and curriculum.",
+      "coalition_ids": [
+        "ghs",
+        "crs"
+      ],
+      "lat": 42.363317226928366,
+      "lng": -71.03478475561688,
+      "last_activity": "2026-05-25T19:42:02.324Z"
+    },
+    {
+      "id": "passive_house",
+      "name": "Passive House Massachusetts",
+      "type": "professional",
+      "geographic_focus": "statewide",
+      "description": "MA passive-house building professionals network.",
+      "coalition_ids": [
+        "mara",
+        "hero",
+        "zcrf"
+      ],
+      "lat": 42.35589657292598,
+      "lng": -71.01929328060123,
+      "last_activity": "2026-05-06T19:42:02.324Z"
+    },
+    {
+      "id": "students_equity",
+      "name": "Students for Equity in Education (Brookline)",
+      "type": "school_club",
+      "geographic_focus": "Brookline",
+      "description": "Brookline High School equity-in-education group.",
+      "coalition_ids": [
+        "mycc",
+        "ghs"
+      ],
+      "lat": 42.337898348893724,
+      "lng": -71.12481202305841,
+      "last_activity": "2026-04-10T19:42:02.324Z"
+    },
+    {
+      "id": "our_climate",
+      "name": "Our Climate MA",
+      "type": "501c4",
+      "geographic_focus": "statewide",
+      "description": "Youth-led climate-policy advocacy with MA field staff.",
+      "coalition_ids": [
+        "mycc",
+        "mpf"
+      ],
+      "lat": 42.378773963167674,
+      "lng": -71.04258647344784,
+      "last_activity": "2026-05-13T19:42:02.324Z"
+    },
+    {
+      "id": "community_action_works",
+      "name": "Community Action Works",
+      "type": "501c3",
+      "geographic_focus": "New England",
+      "description": "Frontline community organizing support.",
+      "coalition_ids": [
+        "mpf"
+      ],
+      "lat": 42.32747565615268,
+      "lng": -71.09438830866463,
+      "last_activity": "2026-05-15T19:42:02.324Z"
+    }
+  ],
+  "edges": [
+    {
+      "source": "mycc",
+      "target": "bls_youthcan"
+    },
+    {
+      "source": "mycc",
+      "target": "andover_climate_lobby"
+    },
+    {
+      "source": "mycc",
+      "target": "andover_hs_env"
+    },
+    {
+      "source": "mycc",
+      "target": "belmont_hs"
+    },
+    {
+      "source": "mycc",
+      "target": "may4cj"
+    },
+    {
+      "source": "mycc",
+      "target": "lorax"
+    },
+    {
+      "source": "mycc",
+      "target": "green_heifers"
+    },
+    {
+      "source": "mycc",
+      "target": "ccl_youth"
+    },
+    {
+      "source": "mycc",
+      "target": "fff_ma"
+    },
+    {
+      "source": "mycc",
+      "target": "mass_climate_edu"
+    },
+    {
+      "source": "mycc",
+      "target": "spring_forward"
+    },
+    {
+      "source": "mycc",
+      "target": "greenroots_eco"
+    },
+    {
+      "source": "mycc",
+      "target": "bsac"
+    },
+    {
+      "source": "mycc",
+      "target": "project9"
+    },
+    {
+      "source": "mycc",
+      "target": "sunrise_boston"
+    },
+    {
+      "source": "mycc",
+      "target": "sunrise_worcester"
+    },
+    {
+      "source": "mycc",
+      "target": "sunrise_ipswich"
+    },
+    {
+      "source": "mycc",
+      "target": "sunrise_western_ma"
+    },
+    {
+      "source": "mycc",
+      "target": "sunrise_lex"
+    },
+    {
+      "source": "mycc",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "mycc",
+      "target": "audubon_metro"
+    },
+    {
+      "source": "mycc",
+      "target": "our_climate"
+    },
+    {
+      "source": "mycc",
+      "target": "vietaid"
+    },
+    {
+      "source": "mycc",
+      "target": "reep"
+    },
+    {
+      "source": "mycc",
+      "target": "ace"
+    },
+    {
+      "source": "mycc",
+      "target": "act_on_mass"
+    },
+    {
+      "source": "mycc",
+      "target": "students_equity"
+    },
+    {
+      "source": "mpf",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "mpf",
+      "target": "sierra_ma"
+    },
+    {
+      "source": "mpf",
+      "target": "350ma"
+    },
+    {
+      "source": "mpf",
+      "target": "mcan"
+    },
+    {
+      "source": "mpf",
+      "target": "envt_ma"
+    },
+    {
+      "source": "mpf",
+      "target": "cwa"
+    },
+    {
+      "source": "mpf",
+      "target": "miph"
+    },
+    {
+      "source": "mpf",
+      "target": "mothers"
+    },
+    {
+      "source": "mpf",
+      "target": "jcan"
+    },
+    {
+      "source": "mpf",
+      "target": "uuma"
+    },
+    {
+      "source": "mpf",
+      "target": "climate_xc"
+    },
+    {
+      "source": "mpf",
+      "target": "ace"
+    },
+    {
+      "source": "mpf",
+      "target": "greenroots"
+    },
+    {
+      "source": "mpf",
+      "target": "clf"
+    },
+    {
+      "source": "mpf",
+      "target": "gbpsr"
+    },
+    {
+      "source": "mpf",
+      "target": "geca"
+    },
+    {
+      "source": "mpf",
+      "target": "mass_peace"
+    },
+    {
+      "source": "mpf",
+      "target": "masspirg"
+    },
+    {
+      "source": "mpf",
+      "target": "sunrise_boston"
+    },
+    {
+      "source": "mpf",
+      "target": "sunrise_western_ma"
+    },
+    {
+      "source": "mpf",
+      "target": "audubon_metro"
+    },
+    {
+      "source": "mpf",
+      "target": "beat"
+    },
+    {
+      "source": "mpf",
+      "target": "food_water"
+    },
+    {
+      "source": "mpf",
+      "target": "jalsa"
+    },
+    {
+      "source": "mpf",
+      "target": "cps"
+    },
+    {
+      "source": "mpf",
+      "target": "climate_code_blue"
+    },
+    {
+      "source": "mpf",
+      "target": "boston_can"
+    },
+    {
+      "source": "mpf",
+      "target": "crwa"
+    },
+    {
+      "source": "mpf",
+      "target": "elm"
+    },
+    {
+      "source": "mpf",
+      "target": "community_action_works"
+    },
+    {
+      "source": "mpf",
+      "target": "afsc"
+    },
+    {
+      "source": "mpf",
+      "target": "mt_grace"
+    },
+    {
+      "source": "mpf",
+      "target": "salem_env"
+    },
+    {
+      "source": "mpf",
+      "target": "naicob"
+    },
+    {
+      "source": "mpf",
+      "target": "climate_bkln"
+    },
+    {
+      "source": "mpf",
+      "target": "healthlink"
+    },
+    {
+      "source": "mpf",
+      "target": "350cape"
+    },
+    {
+      "source": "mpf",
+      "target": "350central"
+    },
+    {
+      "source": "mpf",
+      "target": "qcan"
+    },
+    {
+      "source": "mpf",
+      "target": "reep"
+    },
+    {
+      "source": "mpf",
+      "target": "our_climate"
+    },
+    {
+      "source": "mara",
+      "target": "350ma"
+    },
+    {
+      "source": "mara",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "mara",
+      "target": "sierra_ma"
+    },
+    {
+      "source": "mara",
+      "target": "cwa"
+    },
+    {
+      "source": "mara",
+      "target": "mcan"
+    },
+    {
+      "source": "mara",
+      "target": "climate_xc"
+    },
+    {
+      "source": "mara",
+      "target": "geca"
+    },
+    {
+      "source": "mara",
+      "target": "elm"
+    },
+    {
+      "source": "mara",
+      "target": "passive_house"
+    },
+    {
+      "source": "mara",
+      "target": "crwa"
+    },
+    {
+      "source": "mara",
+      "target": "mothers"
+    },
+    {
+      "source": "mara",
+      "target": "green_newton"
+    },
+    {
+      "source": "mara",
+      "target": "green_cambridge"
+    },
+    {
+      "source": "mara",
+      "target": "sunrise_boston"
+    },
+    {
+      "source": "mara",
+      "target": "uuma"
+    },
+    {
+      "source": "mara",
+      "target": "boston_can"
+    },
+    {
+      "source": "mara",
+      "target": "qcan"
+    },
+    {
+      "source": "mara",
+      "target": "350berks"
+    },
+    {
+      "source": "mara",
+      "target": "beat"
+    },
+    {
+      "source": "mara",
+      "target": "prog_dems"
+    },
+    {
+      "source": "gjc",
+      "target": "ace"
+    },
+    {
+      "source": "gjc",
+      "target": "reep"
+    },
+    {
+      "source": "gjc",
+      "target": "greenroots"
+    },
+    {
+      "source": "gjc",
+      "target": "cps"
+    },
+    {
+      "source": "gjc",
+      "target": "naicob"
+    },
+    {
+      "source": "gjc",
+      "target": "boston_can"
+    },
+    {
+      "source": "gjc",
+      "target": "vietaid"
+    },
+    {
+      "source": "gjc",
+      "target": "pioneer_asthma"
+    },
+    {
+      "source": "gjc",
+      "target": "healthlink"
+    },
+    {
+      "source": "gjc",
+      "target": "gbpsr"
+    },
+    {
+      "source": "gjc",
+      "target": "spring_forward"
+    },
+    {
+      "source": "gjc",
+      "target": "greenroots_eco"
+    },
+    {
+      "source": "ejlt",
+      "target": "ace"
+    },
+    {
+      "source": "ejlt",
+      "target": "reep"
+    },
+    {
+      "source": "ejlt",
+      "target": "greenroots"
+    },
+    {
+      "source": "ejlt",
+      "target": "clf"
+    },
+    {
+      "source": "ejlt",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "ejlt",
+      "target": "masspirg"
+    },
+    {
+      "source": "ejlt",
+      "target": "crwa"
+    },
+    {
+      "source": "ejlt",
+      "target": "elm"
+    },
+    {
+      "source": "ejlt",
+      "target": "cps"
+    },
+    {
+      "source": "ejlt",
+      "target": "healthlink"
+    },
+    {
+      "source": "ejlt",
+      "target": "pioneer_asthma"
+    },
+    {
+      "source": "ejlt",
+      "target": "naicob"
+    },
+    {
+      "source": "gfn",
+      "target": "sierra_ma"
+    },
+    {
+      "source": "gfn",
+      "target": "masspirg"
+    },
+    {
+      "source": "gfn",
+      "target": "clf"
+    },
+    {
+      "source": "gfn",
+      "target": "elm"
+    },
+    {
+      "source": "gfn",
+      "target": "jalsa"
+    },
+    {
+      "source": "gfn",
+      "target": "cwa"
+    },
+    {
+      "source": "gfn",
+      "target": "climate_xc"
+    },
+    {
+      "source": "gfn",
+      "target": "food_water"
+    },
+    {
+      "source": "gfn",
+      "target": "prog_dems"
+    },
+    {
+      "source": "gfn",
+      "target": "350ma"
+    },
+    {
+      "source": "gfn",
+      "target": "mothers"
+    },
+    {
+      "source": "ghs",
+      "target": "century21"
+    },
+    {
+      "source": "ghs",
+      "target": "aft_mass"
+    },
+    {
+      "source": "ghs",
+      "target": "center_green_schools"
+    },
+    {
+      "source": "ghs",
+      "target": "chps"
+    },
+    {
+      "source": "ghs",
+      "target": "cooler_communities"
+    },
+    {
+      "source": "ghs",
+      "target": "mfaa"
+    },
+    {
+      "source": "ghs",
+      "target": "mapc"
+    },
+    {
+      "source": "ghs",
+      "target": "pioneer_asthma"
+    },
+    {
+      "source": "ghs",
+      "target": "students_equity"
+    },
+    {
+      "source": "ghs",
+      "target": "undauntedk12"
+    },
+    {
+      "source": "ghs",
+      "target": "mass_climate_edu"
+    },
+    {
+      "source": "hero",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "hero",
+      "target": "sierra_ma"
+    },
+    {
+      "source": "hero",
+      "target": "geca"
+    },
+    {
+      "source": "hero",
+      "target": "passive_house"
+    },
+    {
+      "source": "hero",
+      "target": "clf"
+    },
+    {
+      "source": "hero",
+      "target": "mothers"
+    },
+    {
+      "source": "hero",
+      "target": "climate_xc"
+    },
+    {
+      "source": "hero",
+      "target": "uuma"
+    },
+    {
+      "source": "hero",
+      "target": "beat"
+    },
+    {
+      "source": "hero",
+      "target": "green_newton"
+    },
+    {
+      "source": "hero",
+      "target": "green_cambridge"
+    },
+    {
+      "source": "hero",
+      "target": "elm"
+    },
+    {
+      "source": "zcrf",
+      "target": "passive_house"
+    },
+    {
+      "source": "zcrf",
+      "target": "mass_audubon"
+    },
+    {
+      "source": "zcrf",
+      "target": "sierra_ma"
+    },
+    {
+      "source": "zcrf",
+      "target": "geca"
+    },
+    {
+      "source": "zcrf",
+      "target": "clf"
+    },
+    {
+      "source": "zcrf",
+      "target": "elm"
+    },
+    {
+      "source": "zcrf",
+      "target": "climate_xc"
+    },
+    {
+      "source": "zcrf",
+      "target": "mcan"
+    },
+    {
+      "source": "zcrf",
+      "target": "sunrise_boston"
+    },
+    {
+      "source": "zcrf",
+      "target": "mothers"
+    },
+    {
+      "source": "zcrf",
+      "target": "green_cambridge"
+    },
+    {
+      "source": "zcrf",
+      "target": "green_newton"
+    },
+    {
+      "source": "zcrf",
+      "target": "climate_bkln"
+    },
+    {
+      "source": "zcrf",
+      "target": "gbpsr"
+    },
+    {
+      "source": "crs",
+      "target": "mass_climate_edu"
+    },
+    {
+      "source": "crs",
+      "target": "undauntedk12"
+    },
+    {
+      "source": "crs",
+      "target": "aft_mass"
+    },
+    {
+      "source": "crs",
+      "target": "center_green_schools"
+    },
+    {
+      "source": "crs",
+      "target": "chps"
+    },
+    {
+      "source": "crs",
+      "target": "cooler_communities"
+    },
+    {
+      "source": "crs",
+      "target": "mapc"
+    },
+    {
+      "source": "crs",
+      "target": "century21"
+    },
+    {
+      "source": "crs",
+      "target": "mfaa"
+    }
+  ]
+}
