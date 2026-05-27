@@ -4,6 +4,8 @@ import { h, clear } from "./dom";
 export interface Sidebar {
   setVisibleCoalitions(ids: Set<string>): void;
   getVisibleCoalitions(): Set<string>;
+  /** A mount point below the coalitions list, above the legend. */
+  controlsContainer(): HTMLElement;
 }
 
 export interface SidebarCallbacks {
@@ -20,9 +22,17 @@ export function createSidebar(
 
   let visible = new Set(data.coalitions.map((c) => c.id));
 
-  function render() {
-    clear(aside);
-    aside.appendChild(h("h3", {}, "Coalitions"));
+  // Sub-containers — built once. Only the coalitions list re-renders.
+  const coalitionsBlock = h("div", { class: "coalitions-block" });
+  const controlsBlock = h("div", { class: "controls-block" });
+  const legendBlock = h("div", { class: "legend-block" });
+  aside.appendChild(coalitionsBlock);
+  aside.appendChild(controlsBlock);
+  aside.appendChild(legendBlock);
+
+  function renderCoalitions() {
+    clear(coalitionsBlock);
+    coalitionsBlock.appendChild(h("h3", {}, "Coalitions"));
 
     for (const c of data.coalitions) {
       const cb_in = h("input", {
@@ -43,7 +53,7 @@ export function createSidebar(
         h("span", { class: "label" }, c.name),
         h("span", { class: "count" }, String(c.member_count)),
       );
-      aside.appendChild(row);
+      coalitionsBlock.appendChild(row);
     }
 
     const actions = h("div", { class: "actions" });
@@ -51,19 +61,21 @@ export function createSidebar(
     const noneBtn = h("button", {}, "None");
     allBtn.addEventListener("click", () => {
       visible = new Set(data.coalitions.map((c) => c.id));
-      render();
+      renderCoalitions();
       cb.onChange(new Set(visible));
     });
     noneBtn.addEventListener("click", () => {
       visible = new Set();
-      render();
+      renderCoalitions();
       cb.onChange(new Set(visible));
     });
     actions.appendChild(allBtn);
     actions.appendChild(noneBtn);
-    aside.appendChild(actions);
+    coalitionsBlock.appendChild(actions);
+  }
 
-    // Legend showing node-size meaning
+  function renderLegend() {
+    clear(legendBlock);
     const legend = h("div", { class: "legend" });
     legend.appendChild(h("h3", {}, "Legend"));
     legend.appendChild(
@@ -99,18 +111,22 @@ export function createSidebar(
         h("div", {}, "Membership edge"),
       ),
     );
-    aside.appendChild(legend);
+    legendBlock.appendChild(legend);
   }
 
-  render();
+  renderCoalitions();
+  renderLegend();
 
   return {
     setVisibleCoalitions(ids) {
       visible = new Set(ids);
-      render();
+      renderCoalitions();
     },
     getVisibleCoalitions() {
       return new Set(visible);
+    },
+    controlsContainer() {
+      return controlsBlock;
     },
   };
 }

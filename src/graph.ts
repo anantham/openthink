@@ -13,10 +13,42 @@ export interface GraphCallbacks {
   onNodeClick(node: GraphNode): void;
 }
 
+export interface GroupRule {
+  id: string;
+  label: string;
+  color: string;
+  matches(node: GraphNode): boolean;
+}
+
+export interface GraphSettings {
+  centerForce: number; // 0..1
+  repelForce: number; // 0..1, scales charge strength
+  linkForce: number; // 0..1
+  linkDistance: number; // 0..1
+  nodeSize: number; // 0.5..2
+  linkThickness: number; // 0.5..4 (px)
+  textFadeThreshold: number; // 0..1; below this zoom scale, hide names
+  arrows: boolean;
+}
+
+export const DEFAULT_GRAPH_SETTINGS: GraphSettings = {
+  centerForce: 0.5,
+  repelForce: 0.5,
+  linkForce: 0.5,
+  linkDistance: 0.5,
+  nodeSize: 1,
+  linkThickness: 1,
+  textFadeThreshold: 0.5,
+  arrows: false,
+};
+
 export interface Graph {
   setVisibleCoalitions(ids: Set<string>): void;
   setSelectedNode(node: GraphNode | null): void;
   focusOnCoalition(id: string): void;
+  updateSettings(partial: Partial<GraphSettings>): void;
+  setGroups(groups: GroupRule[]): void;
+  kickSimulation(): void;
 }
 
 const COALITION_LABEL_FONT_SIZE = 14;
@@ -85,9 +117,27 @@ export function createGraph(
     })
     .on("zoom", (event) => {
       root.attr("transform", event.transform.toString());
+      currentZoomScale = event.transform.k;
+      applyTextFade();
       // Hide tooltip while zooming
       tooltip.hide();
     });
+
+  let currentZoomScale = 1;
+  function applyTextFade() {
+    // The threshold slider value 0..1 maps to a zoom scale 0.2..2.5.
+    // Below that scale, node-name labels fade out.
+    const threshold = 0.2 + settings.textFadeThreshold * 2.3;
+    const k = currentZoomScale;
+    // Smooth fade across a small window for nicer transition.
+    const fadeWindow = 0.25;
+    let opacity: number;
+    if (k >= threshold) opacity = 1;
+    else if (k <= threshold - fadeWindow) opacity = 0;
+    else opacity = (k - (threshold - fadeWindow)) / fadeWindow;
+    nodeLayer.selectAll<SVGTextElement, GraphNode>("text.node-name")
+      .style("opacity", opacity);
+  }
 
   svg.call(zoom);
 
@@ -97,44 +147,64 @@ export function createGraph(
     return { w: r.width, h: r.height };
   }
 
+  // ----- Settings (mutable) -----
+  let settings: GraphSettings = { ...DEFAULT_GRAPH_SETTINGS };
+  let groups: GroupRule[] = [];
+
+  // Helpers to compute the actual force strengths from normalized 0..1 sliders.
+  function chargeStrengthFor(n: GraphNode): number {
+    // Repel force 0..1 → coalition: -800..-6000, org: -100..-800
+    const t = settings.repelForce;
+    return n.kind === "coalition"
+      ? -(800 + t * 5200)
+      : -(100 + t * 700);
+  }
+  function linkDistanceFor(l: GraphLink): number {
+    const src =
+      typeof l.source === "string" ? nodeById.get(l.source) : l.source;
+    // 0..1 → 50..380
+    const base = 50 + settings.linkDistance * 330;
+    if (src?.kind === "coalition") return coalitionRadius(src) + base * 0.6;
+    return base;
+  }
+  function centerForceStrength(): number {
+    return settings.centerForce * 0.1;
+  }
+  function linkForceStrength(): number {
+    return 0.1 + settings.linkForce * 0.9;
+  }
+  function nodeRadiusOf(n: GraphNode): number {
+    const base = n.kind === "coalition" ? coalitionRadius(n) : orgRadius(n);
+    return base * settings.nodeSize;
+  }
+
   // ----- Force simulation -----
+  const linkForce = d3
+    .forceLink<GraphNode, GraphLink>(allLinks)
+    .id((d) => d.id)
+    .distance(linkDistanceFor)
+    .strength(linkForceStrength());
+
+  const chargeForce = d3
+    .forceManyBody<GraphNode>()
+    .strength(chargeStrengthFor)
+    .distanceMax(900);
+
+  const collideForce = d3
+    .forceCollide<GraphNode>()
+    .radius((n) => nodeRadiusOf(n) + 14)
+    .iterations(2);
+
+  const xForce = d3.forceX<GraphNode>(0).strength(centerForceStrength());
+  const yForce = d3.forceY<GraphNode>(0).strength(centerForceStrength());
+
   const sim = d3
     .forceSimulation<GraphNode>(allNodes)
-    .force(
-      "link",
-      d3
-        .forceLink<GraphNode, GraphLink>(allLinks)
-        .id((d) => d.id)
-        .distance((l) => {
-          const src =
-            typeof l.source === "string" ? nodeById.get(l.source) : l.source;
-          if (!src) return 160;
-          return src.kind === "coalition"
-            ? coalitionRadius(src) + 140
-            : 160;
-        })
-        .strength(0.4),
-    )
-    .force(
-      "charge",
-      d3
-        .forceManyBody<GraphNode>()
-        .strength((n) => (n.kind === "coalition" ? -3200 : -420))
-        .distanceMax(900),
-    )
-    .force(
-      "collide",
-      d3
-        .forceCollide<GraphNode>()
-        .radius((n) =>
-          n.kind === "coalition"
-            ? coalitionRadius(n) + 14
-            : orgRadius(n) + 14,
-        )
-        .iterations(2),
-    )
-    .force("x", d3.forceX<GraphNode>(0).strength(0.025))
-    .force("y", d3.forceY<GraphNode>(0).strength(0.025))
+    .force("link", linkForce)
+    .force("charge", chargeForce)
+    .force("collide", collideForce)
+    .force("x", xForce)
+    .force("y", yForce)
     .alphaDecay(0.02);
 
   // Re-center on resize
@@ -186,9 +256,16 @@ export function createGraph(
       d.kind === "coalition" ? "node-coalition" : "node-org",
     ) as NodeSel;
 
-  // Append shapes + labels per node
+  // Append shapes + labels per node.
+  // Structure per node: <circle.halo> (groups), <circle.ring> (main), <text.node-label>, <text.node-name>.
   nodeSel.each(function (this: SVGGElement, d) {
     const sel = d3.select(this);
+    sel
+      .append("circle")
+      .attr("class", "halo")
+      .attr("fill", "none")
+      .attr("stroke", "none")
+      .attr("stroke-width", 0);
     if (d.kind === "coalition") {
       const r = coalitionRadius(d);
       sel
@@ -227,6 +304,44 @@ export function createGraph(
         .text(shorten(d.name, 28));
     }
   });
+
+  // ----- Apply visual settings (radii, halos, link thickness, fade) -----
+  function applyVisualSettings() {
+    // Update circle radii + label y-positions based on node-size multiplier
+    nodeSel.each(function (this: SVGGElement, d) {
+      const sel = d3.select(this);
+      const r = nodeRadiusOf(d);
+      sel.select<SVGCircleElement>("circle.ring").attr("r", r);
+
+      // Find matching group (if any) — first match wins
+      let matchedColor: string | null = null;
+      for (const g of groups) {
+        if (g.matches(d)) {
+          matchedColor = g.color;
+          break;
+        }
+      }
+      const halo = sel.select<SVGCircleElement>("circle.halo");
+      if (matchedColor) {
+        halo
+          .attr("r", r + 5)
+          .attr("stroke", matchedColor)
+          .attr("stroke-width", 3)
+          .attr("stroke-opacity", 0.9)
+          .attr("fill", "none");
+      } else {
+        halo.attr("stroke", "none").attr("stroke-width", 0);
+      }
+      // Label below the node
+      sel
+        .select<SVGTextElement>("text.node-name")
+        .attr("y", r + (d.kind === "coalition" ? 14 : 12));
+    });
+    // Link thickness
+    linkSel.attr("stroke-width", settings.linkThickness);
+  }
+  // Apply on initial render
+  applyVisualSettings();
 
   // Drag + events
   nodeSel
@@ -395,6 +510,50 @@ export function createGraph(
       void w;
       void h;
       svg.transition().duration(550).call(zoom.transform, t);
+    },
+    updateSettings(partial) {
+      const before = { ...settings };
+      settings = { ...settings, ...partial };
+      // Forces that depend on settings need re-init
+      if (partial.linkForce !== undefined) {
+        linkForce.strength(linkForceStrength());
+      }
+      if (partial.linkDistance !== undefined) {
+        linkForce.distance(linkDistanceFor);
+      }
+      if (partial.repelForce !== undefined) {
+        chargeForce.strength(chargeStrengthFor);
+      }
+      if (partial.centerForce !== undefined) {
+        xForce.strength(centerForceStrength());
+        yForce.strength(centerForceStrength());
+      }
+      if (partial.nodeSize !== undefined) {
+        collideForce.radius((n) => nodeRadiusOf(n) + 14);
+        applyVisualSettings();
+      }
+      if (partial.linkThickness !== undefined) {
+        linkSel.attr("stroke-width", settings.linkThickness);
+      }
+      if (partial.textFadeThreshold !== undefined) {
+        applyTextFade();
+      }
+      // If any force changed, re-energize the sim
+      const forceChanged =
+        partial.centerForce !== undefined ||
+        partial.repelForce !== undefined ||
+        partial.linkForce !== undefined ||
+        partial.linkDistance !== undefined ||
+        partial.nodeSize !== undefined;
+      if (forceChanged) sim.alpha(0.5).restart();
+      void before;
+    },
+    setGroups(g) {
+      groups = g;
+      applyVisualSettings();
+    },
+    kickSimulation() {
+      sim.alpha(1).restart();
     },
   };
 

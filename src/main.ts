@@ -8,6 +8,7 @@ import { createDrawer } from "./drawer";
 import { createGeographicView } from "./geographic";
 import { createEventsView } from "./events";
 import { createProjectsView } from "./projects";
+import { createControls } from "./controls";
 import { h, clear } from "./dom";
 
 async function main() {
@@ -92,6 +93,13 @@ async function main() {
     },
   });
   graphApi.setVisibleCoalitions(sidebar.getVisibleCoalitions());
+
+  // Controls panel (Forces / Display / Groups) — mounts inside the sidebar
+  createControls(sidebar.controlsContainer(), {
+    onSettingsChange: (partial) => graphApi!.updateSettings(partial),
+    onGroupsChange: (rules) => graphApi!.setGroups(rules),
+    onAnimate: () => graphApi!.kickSimulation(),
+  });
 
   // ----- Geographic view -----
   const geoView = createGeographicView(data, {
